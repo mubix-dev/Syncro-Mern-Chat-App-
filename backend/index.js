@@ -15,7 +15,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://syncro-mern-chat-app-3of1.vercel.app",
     credentials: true,
   }),
 );
